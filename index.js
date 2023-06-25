@@ -3,21 +3,10 @@ const pathfinder = require('mineflayer-pathfinder').pathfinder
 const Movements = require('mineflayer-pathfinder').Movements
 const { GoalNear } = require('mineflayer-pathfinder').goals
 
-const express = require('express');
-
-const app = express();
-
-app.get('/', (req, res) => {
-  res.send('Bot Is Ready')
-});
-
-app.listen(3000, () => {
-  console.log('server started');
-});
 
 const bot = mineflayer.createBot({
-    host: 'localhost', // vasya18jyv8.aternos.me
-    port: '50316', //64810 
+    host: 'vasya18jyv8.aternos.me', //localhost
+    port: '64810', //64810 
     version: '1.19.4',
     username: 'bot',
     auth: 'offline'
