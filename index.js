@@ -16,8 +16,8 @@ app.listen(3000, () => {
 });
 
 const bot = mineflayer.createBot({
-    host: 'vasya18jyv8.aternos.me', //localhost
-    port: '64810', //64810
+    host: 'localhost', // vasya18jyv8.aternos.me
+    port: '50316', //64810 
     version: '1.19.4',
     username: 'bot',
     auth: 'offline'
